@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 525px;
 }
 
 header, footer {
@@ -8,6 +9,7 @@ header, footer {
   width: 100%;
   background-color: #7152f4;
   color: #ffffff;
+  position: relative;
 }
 
 #wrapper {
@@ -23,6 +25,8 @@ header, footer {
   background-color: #52f471;
   right: 200px;
   margin-left: -100%;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
 }
 
 #right_side {
@@ -31,6 +35,8 @@ header, footer {
   width: 125px;
   background-color: #f452d5;
   margin-right: -125px;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
 }
 
 #content_area {
@@ -38,4 +44,6 @@ header, footer {
   float: left;
   background-color: #ffffff;
   width: 100%;
+  margin-bottom: -2000px;
+  padding-bottom: 2000px;
 }
